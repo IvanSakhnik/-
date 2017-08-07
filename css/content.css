@@ -1,0 +1,169 @@
+
+/*****  ADVANTAGES STYLES  ********************************************************************************************/
+.advantages{
+    width: 65%;
+    height: 670px;
+    margin: 0 auto;
+    background: url("../images/logo.png") 45% 170px no-repeat;
+}
+
+.advantages__title{
+    text-align: center;
+    padding-top:50px;
+    font-size: 1.85em;
+}
+
+.advantages__content{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    height: 85%;
+    padding-top: 56px;
+}
+
+.advantages__content__section{
+    margin: 0 auto;
+    text-align: center;
+    width: 230px;
+}
+
+.advantages__content__section h3{
+    font-weight: bold;
+    font-size: 1.125em;
+    line-height: 1.35em;
+}
+
+.advantages__content__section p{
+    line-height: 1.65;
+    padding-top: 20px;
+}
+
+.advantage1{ background: url("../images/01.png") 70px 30px no-repeat; }
+
+.advantage2{ background: url("../images/02.png") 70px 30px no-repeat; }
+
+.advantage3{ background: url("../images/03.png") 70px 30px no-repeat; }
+
+.advantage4{ background: url("../images/04.png") 70px 43px no-repeat; }
+
+.advantage5{ background: url("../images/05.png") 70px 43px no-repeat; }
+
+.advantage6{ background: url("../images/06.png") 70px 43px no-repeat; }
+
+@media screen  and (max-width: 1075px){
+    .advantages{
+        width: 80%;
+    }
+}
+
+@media screen  and (max-width: 890px){
+    .advantages{
+        width: 90%;
+    }
+}
+
+@media screen  and (max-width: 783px){
+    .advantages{
+        background: none;
+        height: auto;
+    }
+
+    .advantages__content {
+        padding-top: 10px;
+    }
+
+    .advantages__content__section{
+        margin-top: 20px;
+    }
+}
+/**********************************************************************************************************************/
+
+/*****  VIDEO STYLES  *************************************************************************************************/
+.video{
+    height: 670px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video__title{
+    text-align: center;
+    font-size: 1.85em;
+    padding: 54px 0 50px 0;
+}
+
+.video__mask{
+    background: url("../images/video.jpg") -170px -100px no-repeat;
+    height: 510px;
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video__mask img{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 10%;
+    cursor: pointer;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.video__mask img:hover{
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+@media screen  and (max-width: 1000px){
+    .video{
+        height: 600px;
+    }
+
+    .video__mask, .video iframe{
+        height: 70%;
+        width: 90%;
+    }
+}
+
+@media screen  and (max-width: 700px){
+    .video{
+        height: 500px;
+    }
+
+    .video__mask, .video iframe{
+        height: 60%;
+        width: 90%;
+    }
+
+    .video__mask{ background: url("../images/video.jpg") -320px -230px no-repeat; }
+}
+
+@media screen  and (max-width: 500px){
+    .video{
+        height: 400px;
+    }
+
+    .video__title{
+        text-align: center;
+        font-size: 1.85em;
+        padding: 30px 0 30px 0;
+    }
+}
+/**********************************************************************************************************************/
+
+/*****  SLIDER STYLES  ************************************************************************************************/
+.slider{
+    height: 670px;
+}
+
+.slider__title{
+    text-align: center;
+    font-size: 1.85em;
+    padding: 54px 0 50px 0;
+}
+
+/**********************************************************************************************************************/
